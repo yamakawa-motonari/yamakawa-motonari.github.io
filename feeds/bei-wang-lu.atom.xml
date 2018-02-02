@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>How to hack the noob's life - 備忘録</title><link href="https://yamakawa-motonari.github.io/" rel="alternate"></link><link href="https://yamakawa-motonari.github.io/feeds/bei-wang-lu.atom.xml" rel="self"></link><id>https://yamakawa-motonari.github.io/</id><updated>2017-10-31T06:00:00+09:00</updated><entry><title>ブログのプッシュまでのコマンド備忘録</title><link href="https://yamakawa-motonari.github.io/burogunoputsushiyumadenokomandobei-wang-lu.html" rel="alternate"></link><published>2017-10-31T06:00:00+09:00</published><updated>2017-10-31T06:00:00+09:00</updated><author><name>山川去年</name></author><id>tag:yamakawa-motonari.github.io,2017-10-31:/burogunoputsushiyumadenokomandobei-wang-lu.html</id><summary type="html">&lt;p&gt;最低限のコマンド&lt;/p&gt;</summary><content type="html">&lt;h3&gt;最低限ブログ投稿に必要なvenvコマンドやgitコマンド&lt;/h3&gt;
+&lt;p&gt;contentやoutputの親ディレクトリで、&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;source venv/bin/activate
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;で、(venv) として実行することができる。&lt;/p&gt;
+&lt;p&gt;同じディレクトリで、&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;output&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;add&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;commit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;added all created html files&amp;#39;&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;make&lt;/span&gt; &lt;span class="n"&gt;html&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;username&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;username&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;io&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;gh&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;master&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;これで投稿した。
+最後のコマンドのあとにgithubでのユーザーネームとパスワードを要求されるので、入力する。&lt;/p&gt;
+&lt;p&gt;それぞれのgitコマンドの意味については近々調べてメモしておかないと忘れそう…&lt;/p&gt;</content><category term="git"></category><category term="github"></category></entry></feed>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>How to hack the noob's life - 日記</title><link href="https://yamakawa-motonari.github.io/" rel="alternate"></link><link href="https://yamakawa-motonari.github.io/feeds/ri-ji.atom.xml" rel="self"></link><id>https://yamakawa-motonari.github.io/</id><updated>2018-02-03T01:25:00+09:00</updated><entry><title>久しぶりの更新/機械学習について</title><link href="https://yamakawa-motonari.github.io/diary.html" rel="alternate"></link><published>2018-02-03T01:25:00+09:00</published><updated>2018-02-03T01:25:00+09:00</updated><author><name>山川去年</name></author><id>tag:yamakawa-motonari.github.io,2018-02-03:/diary.html</id><summary type="html">&lt;p&gt;近況報告&lt;/p&gt;</summary><content type="html">&lt;h3&gt;ブログを開設してから半年近くたった。&lt;/h3&gt;
+&lt;p&gt;結局ブログなんて開設してもなんにも書かないで半年くらいたってしまう。
+ブログを投稿するまでの流れを体に染み付かせるように数日間pelicanをいじり続けないと、すぐ億劫になって更新しなくなってしまう。
+また、かんたんにブログを投稿できると言っても、そもそもブログを書く週間が身に付いてなければ話にならないのかもしれない。&lt;/p&gt;
+&lt;p&gt;全然関係ない話だが、何か技術なり習慣を身に付けようとするときには、毎日コツコツ続けるのがいいとされている。
+僕は最近それに加えて、まず最初の数週間に狂ったように身につけたい技術や習慣を行い続けて、その分野の基礎動作を体に染み付かせるのも大事だと思うようになってきた。
+基礎動作が体に染み付いてしまえば、そこからは脳みその領域になる。脳みその領域に至る前、体に染み付くフェーズをこなすのが、年を経るごとに辛くなっていく気がしている。
+逆に言えば、意識してそのフェーズをこなすことができれば、広くいろいろな分野に手をだすことができるのでは無いか、と考えている。&lt;/p&gt;
+&lt;p&gt;平たく申してしまえば、60〜70％までは手でこなせるようになるかどうか。そこから80,90,100％自分のものにするには、70%に至るまでの何倍もの時間と工夫が必要なんだろうなと、そんな気がしている。&lt;/p&gt;
+&lt;h3&gt;機械学習に触れています。&lt;/h3&gt;
+&lt;p&gt;そんな話をしているのも、最近故あって機械学習に触れているからです。
+tensorflowと言うpythonのライブラリを使用して、二層のニューラルネットワークを実装することを目標に勉強している。
+今まで、機械学習とかAIとかは大企業や大学の研究室で開発されていて、ソースコードは厳重に管理されていて、到底一般人が手を出せるものでは無いんだろうと漠然と考えていた。
+ところが実態は、tensorflowのホームページにかんたんなニューラルネットワークの実装方法がソースコードとともに丁寧に解説されているし、素人でもかんたんにアクセスできる論文に人工知能のコードがアップロードされたgithubページのURLが記載されていて、データセットが入手できれば誰でも追試できるようになっている。
+もちろん内容を理解するのはかんたんなことでは無いが、意欲さえあればかんたんに勉強できるようになっている。
+まだ脳がカチコチになるまで歳を取ったわけではないのだから、なんでも勉強していこうと思った、という話です。&lt;/p&gt;
+&lt;p&gt;効率のいい勉強方法を確立していかないと。&lt;/p&gt;</content><category term="diary"></category><category term="machine-learning"></category></entry></feed>

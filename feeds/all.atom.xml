@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>How to hack the noob's life</title><link href="https://yamakawa-motonari.github.io/" rel="alternate"></link><link href="https://yamakawa-motonari.github.io/feeds/all.atom.xml" rel="self"></link><id>https://yamakawa-motonari.github.io/</id><updated>2018-02-03T01:25:00+09:00</updated><entry><title>久しぶりの更新/機械学習について</title><link href="https://yamakawa-motonari.github.io/diary.html" rel="alternate"></link><published>2018-02-03T01:25:00+09:00</published><updated>2018-02-03T01:25:00+09:00</updated><author><name>山川去年</name></author><id>tag:yamakawa-motonari.github.io,2018-02-03:/diary.html</id><summary type="html">&lt;p&gt;近況報告&lt;/p&gt;</summary><content type="html">&lt;h3&gt;ブログを開設してから半年近くたった。&lt;/h3&gt;
+&lt;p&gt;結局ブログなんて開設してもなんにも書かないで半年くらいたってしまう。
+ブログを投稿するまでの流れを体に染み付かせるように数日間pelicanをいじり続けないと、すぐ億劫になって更新しなくなってしまう。
+また、かんたんにブログを投稿できると言っても、そもそもブログを書く週間が身に付いてなければ話にならないのかもしれない。&lt;/p&gt;
+&lt;p&gt;全然関係ない話だが、何か技術なり習慣を身に付けようとするときには、毎日コツコツ続けるのがいいとされている。
+僕は最近それに加えて、まず最初の数週間に狂ったように身につけたい技術や習慣を行い続けて、その分野の基礎動作を体に染み付かせるのも大事だと思うようになってきた。
+基礎動作が体に染み付いてしまえば、そこからは脳みその領域になる。脳みその領域に至る前、体に染み付くフェーズをこなすのが、年を経るごとに辛くなっていく気がしている。
+逆に言えば、意識してそのフェーズをこなすことができれば、広くいろいろな分野に手をだすことができるのでは無いか、と考えている。&lt;/p&gt;
+&lt;p&gt;平たく申してしまえば、60〜70％までは手でこなせるようになるかどうか。そこから80,90,100％自分のものにするには、70%に至るまでの何倍もの時間と工夫が必要なんだろうなと、そんな気がしている。&lt;/p&gt;
+&lt;h3&gt;機械学習に触れています。&lt;/h3&gt;
+&lt;p&gt;そんな話をしているのも、最近故あって機械学習に触れているからです。
+tensorflowと言うpythonのライブラリを使用して、二層のニューラルネットワークを実装することを目標に勉強している。
+今まで、機械学習とかAIとかは大企業や大学の研究室で開発されていて、ソースコードは厳重に管理されていて、到底一般人が手を出せるものでは無いんだろうと漠然と考えていた。
+ところが実態は、tensorflowのホームページにかんたんなニューラルネットワークの実装方法がソースコードとともに丁寧に解説されているし、素人でもかんたんにアクセスできる論文に人工知能のコードがアップロードされたgithubページのURLが記載されていて、データセットが入手できれば誰でも追試できるようになっている。
+もちろん内容を理解するのはかんたんなことでは無いが、意欲さえあればかんたんに勉強できるようになっている。
+まだ脳がカチコチになるまで歳を取ったわけではないのだから、なんでも勉強していこうと思った、という話です。&lt;/p&gt;
+&lt;p&gt;効率のいい勉強方法を確立していかないと。&lt;/p&gt;</content><category term="diary"></category><category term="machine-learning"></category></entry><entry><title>ブログのプッシュまでのコマンド備忘録</title><link href="https://yamakawa-motonari.github.io/burogunoputsushiyumadenokomandobei-wang-lu.html" rel="alternate"></link><published>2017-10-31T06:00:00+09:00</published><updated>2017-10-31T06:00:00+09:00</updated><author><name>山川去年</name></author><id>tag:yamakawa-motonari.github.io,2017-10-31:/burogunoputsushiyumadenokomandobei-wang-lu.html</id><summary type="html">&lt;p&gt;最低限のコマンド&lt;/p&gt;</summary><content type="html">&lt;h3&gt;最低限ブログ投稿に必要なvenvコマンドやgitコマンド&lt;/h3&gt;
+&lt;p&gt;contentやoutputの親ディレクトリで、&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;source venv/bin/activate
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;で、(venv) として実行することができる。&lt;/p&gt;
+&lt;p&gt;同じディレクトリで、&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;output&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;add&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;commit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;added all created html files&amp;#39;&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;make&lt;/span&gt; &lt;span class="n"&gt;html&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;username&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;username&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;io&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;gh&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;master&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;これで投稿した。
+最後のコマンドのあとにgithubでのユーザーネームとパスワードを要求されるので、入力する。&lt;/p&gt;
+&lt;p&gt;それぞれのgitコマンドの意味については近々調べてメモしておかないと忘れそう…&lt;/p&gt;</content><category term="git"></category><category term="github"></category></entry><entry><title>ブログ開設</title><link href="https://yamakawa-motonari.github.io/1031first_post.html" rel="alternate"></link><published>2017-10-31T04:50:00+09:00</published><updated>2017-10-31T04:50:00+09:00</updated><author><name>山川去年</name></author><id>tag:yamakawa-motonari.github.io,2017-10-31:/1031first_post.html</id><summary type="html">&lt;p&gt;pelicanを使用してブログ開設&lt;/p&gt;</summary><content type="html">&lt;h3&gt;ブログを開設してみた&lt;/h3&gt;
+&lt;p&gt;だいぶ前にoctopressとgithub pagesを使ってブログを作ろうとしたのですが、そのときにrubyの環境構築で挫折しました。&lt;/p&gt;
+&lt;p&gt;今回は、pythonで作られたpelicanという静的サイトジェネレータを使用してブログを開設してみました。今回も環境構築でだいぶ時間を取られましたが、なんとか開設までこぎつけたので良かったです。&lt;/p&gt;
+&lt;p&gt;主にプログラミングやアルゴリズムについて、気づいたことをメモしていく感じで記事を書いていくと思いますが、SFやゲーム、音楽についても気が向いたら書くかもしれません。&lt;/p&gt;</content><category term="pelican"></category><category term="blog"></category><category term="python"></category></entry></feed>
